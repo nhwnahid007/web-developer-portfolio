@@ -83,18 +83,38 @@ nav a {
   color: var(--Dark-01, #181818);
   font-size: 40px;
   font-weight: 700;
-  margin-top: 10px;
+  margin-bottom:-20px;
+}
+.banner-des{
+    margin: 1px;
 }
 .banner-content {
   max-width: 500px;
+  
 }
 
-/* main section styles */
-.about {
-  padding: 130px;
-  border-radius: 10px;
-  background: #fff8f3;
-  margin: 130px 0;
-}
+
 
 /* About section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+  }
+
+  .about-info-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-info{
+    text-align: center;
+  }
+
+
+  /* main section styles */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
