@@ -20,7 +20,7 @@ body {
   font-weight: 700;
 }
 
-.dection-description {
+.section-description {
   color: var(--Dark-03, #757575);
   text-align: center;
   font-size: 18px;
@@ -176,12 +176,27 @@ main section {
   text-align: center;
 }
 
-.btn-dw-primary {
+.btn-primary-dw {
   border-radius: 5px;
   background: #fd6e0a;
   border: 0;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
+  width: 50%;
+  margin: 0 auto;
 }
 
+/* Footer style */
+
+footer{
+  display: flex;
+  background: #FFF8F3;
+  padding: 130px 200px;
+  margin-top: 100px;
+
+}
+
+.footer-column{
+  width: 50%;
+}
